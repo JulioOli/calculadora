@@ -1,9 +1,12 @@
 import react from 'react'
 import './Calculadora.css'
+import Container from '@mui/material/Container';
 
 export default function Calculadora(){
     return(
-        <div>
+        <Container maxWidth="xs">
+        <div className='wrapper'>
+            
             <button>0</button>
             <button>1</button>
             <button>2</button>
@@ -25,5 +28,6 @@ export default function Calculadora(){
             <button>,</button>
 
         </div>
+        </Container>
     )
 }

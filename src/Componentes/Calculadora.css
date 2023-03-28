@@ -9,3 +9,8 @@ button{
 button:hover{
     cursor: pointer;
 }
+
+.wrapper{
+    background-color: darkslategray;
+    border-radius: 1em;
+}
